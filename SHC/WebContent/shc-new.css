@@ -1,0 +1,506 @@
+@charset "UTF-8";
+
+@import
+	url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/* -------------------------------------LOGIN----------------------------------------- */
+.back-to-top {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	display: none;
+}
+
+#password {
+	border-radius: 30px 25px 30px 25px;
+}
+
+#username {
+	border-radius: 30px 25px 30px 25px;
+}
+
+#loginBody {
+	background-image: url("pictures/login-bg.jpg");
+	background-color: hsla(0, 0%, 100%, 0.16);
+	background-blend-mode: overlay;
+}
+
+#loginButton {
+	width: 225px;
+	margin-left: 22px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#loginBox {
+	border: 3.00003px solid rgba(255, 0, 0, .5);
+	border-radius: 20px 20px 20px 20px;
+	border-style: ridge;
+	border-color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.underLine {
+	width: 30px;
+	margin-top: 5px;
+}
+
+/* -------------------------------------------------------HOME.jsp-------------------------------------------------------------------- */
+.homeBody {
+	background-image: url("pictures/shc-bg.jpg");
+	background-color: hsla(0, 0%, 100%, 0.3);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+	background-blend-mode: overlay;
+}
+
+.welcome-text {
+	margin-top: 15px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: xx-large;
+	font-weight: 600;
+}
+
+#demo {
+	width: 762px;
+	height: 518px;
+	border-radius: 40px 40px 40px 40px;
+	border-color: white;
+	border-style: solid;
+}
+
+.carousel-inner {
+	border-radius: 40px 40px 40px 40px;
+}
+
+.carousel-image {
+	border-radius: 40px 40px 40px 40px;
+}
+
+#homeHeading {
+	font-family: sans-serif;
+	text-align: center;
+}
+/* ----------------------------------------NAVIGATION-------------------------------------------- */
+#navbar {
+	background-color: #6600cc;
+	height: 44px;
+	opacity: 0.7;
+	border-top: thick;
+	border-bottom: thick;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+
+.navLi {
+	text-align: center;
+	width: 76px;
+	border: medium;
+	border-style: solid;
+	border-color: white;
+	border-radius: 15px 15px 15px 15px;
+	margin-right: 16px;
+	height: 30px;
+	width: 72px;
+	background-color: #8a5cff;
+	background-color: hsla(0, 0%, 100%, 0.6);
+	background-blend-mode: overlay;
+}
+
+.navButton {
+	font-family: cursive;
+	color: black;
+	font-weight: 600;
+}
+
+.navHomeLi {
+	background-color: white;
+	text-align: center;
+	width: 76px;
+	border: medium;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15px 15px 15px 15px;
+	margin-right: 16px;
+	height: 30px;
+	width: 72px;
+}
+
+.navButton:hover {
+	background-color: rgba(224, 219, 209);
+	text-decoration: none;
+	color: black;
+}
+
+.navLi:hover {
+	background-color: rgba(224, 219, 209);
+	text-decoration: none;
+	color: black;
+}
+
+.navHomeLi:hover {
+	background-color: rgba(224, 219, 209);
+	text-decoration: none;
+	color: black;
+}
+
+/* ------------------------------------------------------search.jsp--------------------------------------- */
+#searchNavBar {
+	height: 44px;
+	opacity: 0.938;
+	border-top: solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	background-color: #cc9966;
+}
+
+.searchBody {
+	background-image: url("pictures/travel5.jpg");
+	background-color: hsla(0, 0%, 100%, 0.2);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+}
+
+#searchContainer {
+	margin-top: 40px;
+}
+
+#searchBox {
+	background-color: #63a6de;
+	border-style: solid;
+	border-color: white;
+	border-radius: 0px 0px 0px 0px;
+}
+
+#searchHeading {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.searchForm {
+	width: 550px;
+	border-style: groove;
+	background-color: hsla(0, 0%, 100%, 0.63389999);
+	background-blend-mode: overlay;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.searchButton {
+	background-color: #cc9966;
+	opacity: 0.878;
+	border-radius: 10px;
+	border-color: black;
+	height: 38px;
+	font-family: sans-serif;
+	font-size: larger;
+	font-weight: 600;
+	color: black;
+	font-family: sans-serif;
+	width: 474px;
+	text-align: center;
+	font-family: sans-serif;
+	margin-bottom: 20px;
+}
+
+/* -----------------------------------------------------SEARCHRESULT.jsp--------------------------------------------- */
+#searchResultNavBar {
+	height: 44px;
+	opacity: 0.67;
+	border-top: thick;
+	border-bottom: thick;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	background-color: #0066ff;
+	margin-bottom: 30px;
+}
+
+.searchResultBody {
+	background-image: url("pictures/travel3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.3342);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+}
+
+#searchResultTable {
+	background-color: hsla(0, 0%, 100%, 0.7);
+	font-family: sans-serif;
+	font-size: large;
+	font-weight: 600;
+	width: 1150px;
+	margin-left: -20px;
+}
+
+.searchResultTableHeading {
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	width: 1150px;
+	margin-left: -20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.searchResultTableHead {
+	opacity: 1.0;
+}
+
+.searchResultReserveButton {
+	background-color: #99ffff;
+	color: black;
+	opacity: 0.7;
+	border-radius: 20px;
+}
+/* --------------------------------------------------------ROOMDETAILS.jsp-------------------------------------------------- */
+#roomDetailsNavBar {
+	height: 44px;
+	opacity: 0.812;
+	border-top: medium;
+	border-bottom: medium;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: black;
+	background-color: #d2a679;
+}
+
+.roomDetailsBody {
+	background-image: url("pictures/rocky-beach.jpg");
+	background-color: hsla(0, 0%, 100%, 0.36);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+}
+
+.roomDetailsContainerDateAndRoomSize {
+	margin-left: 150px;
+	margin-top: 10px;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.roomDetailsContainerPictureAndDetails {
+	width: 1240px;
+	margin-top: 20px;
+	margin-left: 150px;
+	padding-left: 15px;
+	border-style: solid;
+	border-color: #d2a679;
+	background-color: hsla(0, 0%, 100%, 0.56);
+	margin-left: 150px;
+}
+
+.reserveRoomButton {
+	margin-top: 10px;
+	margin-left: 476px;
+	width: 170px;
+	font-size: x-large;
+	font-weight: 500;
+	background-color: #d2a679;
+	opacity: 0.7;
+	border-radius: 5px;
+	border-color: black;
+}
+/* ------------------------------------------------------------RESERVATION-CANCELLATION.JSP--------------------------------------- */
+#reservationCancellationNavBar {
+	height: 44px;
+	opacity: 0.87;
+	border-top: solid;
+	border-bottom: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	background-color: #8080ff;
+	margin-bottom: 15px;
+}
+
+.reservationCancellationHeading {
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: black;
+}
+
+.reservationCancellationTableHead {
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.reservationCancellationBody {
+	background-image: url("pictures/travel2.jpg");
+	background-color: hsla(0, 0%, 100%, 0.1842);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+	font-family: sans-serif;
+}
+
+#reservationCancellationTable {
+	background-color: hsla(0, 0%, 100%, 0.56);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+}
+.reservationCancellationButton {
+	background-color: #8080ff;
+	opacity: 0.899;
+	border-radius: 5px;
+	border-color: #8080ff;
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+}
+/* ------------------------------------------------------------REVIEW-INFO.JSP-------------------------------------------------------- */
+.rewiewInfoBody {
+	background-image: url("pictures/sea-n-sky3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.36);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+	font-family: sans-serif;
+	font-weight: 500;
+}
+
+.rewiewInfoTableHead {
+	background-image: url("pictures/sea-n-sky3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.56);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+}
+
+#reviewInfoTable {
+	background-color: hsla(0, 0%, 100%, 0.16);
+}
+#reviewInfoButton {
+	height: 30px;
+	padding-top:3px;
+	background-color: #ffb3ff;
+	color: black;
+	border-color: black;
+	opacity: 0.8;
+}
+/* -----------------------------------------------------------------EVALUATE-RESERVATION.JSP---------------------------------------------- */
+.evaluateReservationBody {
+	background-image: url("pictures/sea-n-sky3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.56);
+	background-blend-mode: overlay;
+	font-family: sans-serif;
+	font-size: medium;
+}
+
+#evaluateReviewTable {
+	border: solid;
+}
+
+.reviewTextHeading {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.reviewTextBox {
+	opacity: 0.5;
+	margin-bottom: 10px;
+}
+
+#reviewSubmitButton {
+	margin-top: 10px;
+	width: 194px;
+	opacity: 0.81;
+	background-color: #8282ff;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: thin;
+	border-color: #6600cc;
+	font-family: sans-serif;
+	font-size: larger;
+	font-weight: 500;
+	color: black;
+	font-family: sans-serif;
+	border-width: thin;
+}
+
+#starRating {
+	justify-content: flex-end;
+}
+
+.starrating>input {
+	display: none;
+} /* Remove radio buttons */
+.starrating>label:before {
+	content: "\f005"; /* Star */
+	margin: 5px;
+	font-size: 2em;
+	font-family: FontAwesome;
+	/*   display: inline-block;  */
+}
+
+.starrating>label {
+	color: #222222; /* Start color when not clicked */
+}
+
+.starrating>input:checked ~ label {
+	color: #ffca08;
+} /* Set yellow color when star checked */
+.starrating>input:hover ~ label {
+	color: #ffca08;
+} /* Set yellow color when star hover */
+
+/* ----------------------------------------------------------------------------------ROOM-MODIFICATION-INFO.JSP------------------ */
+#roomModificationNavBar {
+	height: 44px;
+	opacity: 0.878;
+	border-style:solid;
+	border-color: #4d3319;
+	border-right-style:none;
+	border-left-style: none;
+	background-color: #dfbf9f;
+}
+#roomModificationRow {
+	background-color: hsla(0, 0%, 100%, 0.56);
+	width: 1140px;
+	margin-left: 190px;
+	margin-top: 60px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	border-style: thin;
+}
+.roomModificationBody {
+	background-image: url("pictures/travel4.jpg");
+	background-color: hsla(0, 0%, 100%, 0.26);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+}
+.roomModificationHeading {
+	margin-top: 25px;
+}
+
+#roomModificationContainer {
+	font-family: sans-serif;
+	font-size: large;
+	background-color: hsla(0, 0%, 100%, 0.9);
+	font-size: medium;
+}
+.roomModificationButton {
+	background-color: #ecd9c6;;
+	opacity: 0.889;
+	height: 32px;
+	border-color: #4d3319;
+	border-radius:5px;
+	margin-top: 35px;
+	margin-left: 376px;
+	width: 200px;
+}
+/* --------------------------------------------------------------RESERVATION-DETAILS.JSP----------------------------------------- */
+#myModal {margin-top-100px;
+	color: black;
+	font-family: sans-serif;
+	font-size: large;
+}

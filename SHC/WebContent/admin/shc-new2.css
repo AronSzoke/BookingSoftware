@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+@import
+	url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/* -------------------------------------LOGIN----------------------------------------- */
+.back-to-top {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	display: none;
+}
+
+#password {
+	border-radius: 30px 25px 30px 25px;
+}
+
+#username {
+	border-radius: 30px 25px 30px 25px;
+}
+
+#loginBody {
+	background-image: url("pictures/wallpaper.jpg");
+	background-color: hsla(0, 0%, 100%, 0.16);
+	background-blend-mode: overlay;
+}
+
+#loginButton {
+	width: 225px;
+	margin-left: 22px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#loginBox {
+	border: 1.200003px solid rgba(255, 0, 0, .5);
+	border-radius: 20px 20px 20px 20px;
+	border-style: ridge;
+	border-color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.underLine {
+	width: 30px;
+	margin-top: 5px;
+}
+
+/* -------------------------------------------------------HOME.jsp-------------------------------------------------------------------- */
+.homeBody {
+	background-image: url("pictures/search-bg3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.3);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+	background-blend-mode: overlay;
+}
+
+#demo {
+	border-radius: 40px 40px 40px 40px;
+	border-color: white;
+	border-style: solid;
+}
+
+.carousel-inner {
+	border-radius: 40px 40px 40px 40px;
+}
+
+.carousel-image {
+	border-radius: 40px 40px 40px 40px;
+}
+
+#homeHeading {
+	font-family: sans-serif;
+	text-align: center;
+}
+/* ----------------------------------------NAVIGATION-------------------------------------------- */
+#navbar {
+	background-color: #6600cc;
+	height: 44px;
+	opacity: 0.7;
+	border-top: thick;
+	border-bottom: thick;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+
+.navLi {
+	text-align: center;
+	width: 76px;
+	border: medium;
+	border-style: solid;
+	border-color: white;
+	border-radius: 15px 15px 15px 15px;
+	margin-right: 16px;
+	height: 30px;
+	width: 72px;
+	background-color: #8a5cff;
+	background-color: hsla(0, 0%, 100%, 0.6);
+	background-blend-mode: overlay;
+}
+
+.navButton {
+	font-family: cursive;
+	color: black;
+	font-weight: 600;
+}
+
+.navHomeLi {
+	background-color: white;
+	text-align: center;
+	width: 76px;
+	border: medium;
+	border-style: solid;
+	border-color: black;
+	border-radius: 15px 15px 15px 15px;
+	margin-right: 16px;
+	height: 30px;
+	width: 72px;
+}
+
+.navButton:hover {
+	background-color: rgba(224, 219, 209);
+	text-decoration: none;
+	color: black;
+}
+
+.navLi:hover {
+	background-color: rgba(224, 219, 209);
+	text-decoration: none;
+	color: black;
+}
+
+.navHomeLi:hover {
+	background-color: rgba(224, 219, 209);
+	text-decoration: none;
+	color: black;
+}
+
+/* ------------------------------------------------------search.jsp--------------------------------------- */
+.searchBody {
+	background-image: url("pictures/search-bg3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.3);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+}
+
+#searchContainer {
+	background-color: #82d9d4;
+	font-family: sans-serif;
+	font-style: oblique;
+}
+
+#searchBox {
+	background-color: #63a6de;
+	border-style: solid;
+	border-color: white;
+	border-radius: 50px 50px 50px 50px;
+}
+
+#searchHeading {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#searchForm {
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 10px;
+}
+
+#searchButton {
+	background-color: #8282ff;
+	border-radius: 10px; font-family : sans-serif;
+	font-size: larger;
+	font-weight: 600;
+	color: black;
+	font-family: sans-serif;
+}
+
+/* -----------------------------------------------------SEARCHRESULT.jsp--------------------------------------------- */
+.searchResultBody {
+	background-image: url("pictures/search-bg3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.56);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+}
+
+#searchResultContainer {
+	font-family: sans-serif;
+	font-style: oblique;
+}
+/* --------------------------------------------------------ROOMDETAILS.jsp-------------------------------------------------- */
+.roomDetailsBody {
+	background-image: url("pictures/search-bg3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.66);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+}
+/* ------------------------------------------------------------RESERVATION-CANCELLATION.JSP--------------------------------------- */
+.reservationCancellationBody {
+	background-image: url("pictures/search-bg3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.56);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+	font-family: sans-serif;
+}
+/* ------------------------------------------------------------REVIEW-INFO.JSP-------------------------------------------------------- */
+.rewiewInfoBody {
+	background-image: url("pictures/search-bg3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.56);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+	font-family: sans-serif;
+}
+/* -----------------------------------------------------------------EVALUATE-RESERVATION.JSP---------------------------------------------- */
+.evaluateReservationBody {
+	background-image: url("pictures/search-bg3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.56);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+	font-family: sans-serif;
+	font-size: medium;
+}
+
+#evaluateReviewTable {
+	border: solid;
+}
+
+.reviewTextHeading {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.reviewTextBox {
+	opacity: 0.5;
+}
+
+#reviewSubmitButton {
+	width: 110px;
+	opacity: 0.81;
+	background-color: #8282ff;
+	border-style: solid;
+	border-radius: 18px; border-width : thin;
+	border-color: #6600cc; font-family : sans-serif;
+	font-size: larger;
+	font-weight: 500;
+	color: black;
+	font-family: sans-serif;
+	border-width: thin;
+}
+
+#starRating {
+	justify-content: flex-end;
+}
+
+.starrating>input {
+	display: none;
+} /* Remove radio buttons */
+.starrating>label:before {
+	content: "\f005"; /* Star */
+	margin: 5px;
+	font-size: 2em;
+	font-family: FontAwesome;
+	/*   display: inline-block;  */
+}
+
+.starrating>label {
+	color: #222222; /* Start color when not clicked */
+}
+
+.starrating>input:checked ~ label {
+	color: #ffca08;
+} /* Set yellow color when star checked */
+.starrating>input:hover ~ label {
+	color: #ffca08;
+} /* Set yellow color when star hover */
+
+	/* ----------------------------------------------------------------------------------ROOM-MODIFICATION-INFO.JSP------------------ */	
+.modificationBody {
+	background-image: url("pictures/search-bg3.jpg");
+	background-color: hsla(0, 0%, 100%, 0.3);
+	background-blend-mode: overlay;
+	background-repeat: repeat;
+}
+
+#roomModificationContainer {
+	font-family: sans-serif;
+	font-size: medium;
+}

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.error {
+	color: red;
+}
+
+.hasValidationError {
+	border-style: solid;
+	border-color: red;
+	border-width: 1px;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	background-color: #aaaaaa;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+td {
+	text-align: center;
+}
+
+linkAsAButton {
+	background-color: gray;
+	color: white;
+	padding: 1em 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+linkAsAButton:hover {
+	background-color: #555;
+}
+
+linkAsAButton:active {
+	background-color: black;
+}
+
+linkAsAButton:visited {
+	background-color: #ccc;
+}

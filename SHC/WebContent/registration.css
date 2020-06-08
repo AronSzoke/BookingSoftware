@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+	background-color:#b2b2b2;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+img{
+	width: 30px;
+	height: 30px;
+}
+input {
+	width: 500px;
+	height: 30px;
+}
+
+label{
+	display:flex;
+	width: 100px;
+}
+
+div {
+	margin: 30px;
+	text-align: center;
+}
+
+#button {
+	width: 100px;
+}
